@@ -10,86 +10,134 @@
   user-select: none;
 }
 
-.icon-arrow-bottom {
-  background-image: url('../icons/arrow-bottom.svg');
+.icon-chevron-bottom {
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/chevron-bottom.svg');
+  mask-image: url('../icons/chevron-bottom.svg');
 }
 
-.icon-arrow-left {
-  background-image: url('../icons/arrow-left.svg');
+.icon-chevron-left {
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/chevron-left.svg');
+  mask-image: url('../icons/chevron-left.svg');
+}
+
+.icon-chevron-right {
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/chevron-right.svg');
+  mask-image: url('../icons/chevron-right.svg');
+}
+
+.icon-chevron-top {
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/chevron-top.svg');
+  mask-image: url('../icons/chevron-top.svg');
 }
 
 .icon-arrow-right {
-  background-image: url('../icons/arrow-right.svg');
-}
-
-.icon-arrow-top {
-  background-image: url('../icons/arrow-top.svg');
-}
-
-.icon-arrow-right-full {
-  background-image: url('../icons/arrow-right-full.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/arrow-right.svg');
+  mask-image: url('../icons/arrow-right.svg');
 }
 
 .icon-close {
-  background-image: url('../icons/actions-close.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-close.svg');
+  mask-image: url('../icons/actions-close.svg');
 }
 
 .icon-close-l {
-  background-image: url('../icons/actions-close-l.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-close-l.svg');
+  mask-image: url('../icons/actions-close-l.svg');
 }
 
 .icon-delete {
-  background-image: url('../icons/actions-delete.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-delete.svg');
+  mask-image: url('../icons/actions-delete.svg');
 }
 
 .icon-add {
-  background-image: url('../icons/actions-add.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-add.svg');
+  mask-image: url('../icons/actions-add.svg');
 }
 
 .icon-remove {
-  background-image: url('../icons/actions-remove.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-remove.svg');
+  mask-image: url('../icons/actions-remove.svg');
 }
 
 .icon-search {
-  background-image: url('../icons/actions-search.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-search.svg');
+  mask-image: url('../icons/actions-search.svg');
 }
 
 .icon-copy {
-  background-image: url('../icons/actions-copy.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-copy.svg');
+  mask-image: url('../icons/actions-copy.svg');
 }
 
 .icon-more {
-  background-image: url('../icons/actions-more.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-more.svg');
+  mask-image: url('../icons/actions-more.svg');
 }
 
 .icon-loading {
-  background-image: url('../icons/actions-loading.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-loading.svg');
+  mask-image: url('../icons/actions-loading.svg');
 }
 
 .icon-help {
-  background-image: url('../icons/actions-help.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-help.svg');
+  mask-image: url('../icons/actions-help.svg');
 }
 
 .icon-info {
-  background-image: url('../icons/actions-info.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-info.svg');
+  mask-image: url('../icons/actions-info.svg');
 }
 
 .icon-show {
-  background-image: url('../icons/actions-show.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-show.svg');
+  mask-image: url('../icons/actions-show.svg');
 }
 
 .icon-hide {
-  background-image: url('../icons/actions-hide.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-hide.svg');
+  mask-image: url('../icons/actions-hide.svg');
 }
 
 .icon-lock {
-  background-image: url('../icons/actions-lock.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-lock.svg');
+  mask-image: url('../icons/actions-lock.svg');
 }
 
 .icon-unlock {
-  background-image: url('../icons/actions-unlock.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-unlock.svg');
+  mask-image: url('../icons/actions-unlock.svg');
 }
 
 .icon-download {
-  background-image: url('../icons/app-download.svg');
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/app-download.svg');
+  mask-image: url('../icons/app-download.svg');
+}
+
+.icon-tick {
+  background-color: var(--df-secondary);
+  -webkit-mask-image: url('../icons/actions-tick.svg');
+  mask-image: url('../icons/actions-tick.svg');
 }

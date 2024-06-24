@@ -43,17 +43,13 @@
       (click)="updateText()"
     >
       <span *ngIf="!btnFeedback" class="text-btn">Add</span>
-      <span *ngIf="btnFeedback" class="icon icon-btn icon-tick">
-        <svg width="16" height="16" fill="none">
-          <path d="M13.333 4 6 11.333 2.667 8" class="stroke" />
-        </svg>
-      </span>
+      <span *ngIf="btnFeedback" class="icon icon-btn icon-tick"></span>
     </button>
     <p class="body-s preview">Previsualization:</p>
     <ul class="preview-list">
       <li class="preview-item" *ngFor="let preview of previewList()">
         <span class="original" [title]="preview.name">{{ preview.name }}</span>
-        <span class="icon icon-arrow-right-full"></span>
+        <span class="icon icon-arrow-right"></span>
         <span class="result" [title]="resultAddText(preview)">{{
           resultAddText(preview)
         }}</span>
@@ -112,7 +108,7 @@
           [innerHTML]="highlightMatch(preview.name)"
           [title]="preview.name"
         ></span>
-        <span class="icon icon-arrow-right-full"></span>
+        <span class="icon icon-arrow-right"></span>
         <span class="result" [title]="resultReplaceText(preview.name)">{{
           resultReplaceText(preview.name)
         }}</span>
